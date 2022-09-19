@@ -1,0 +1,54 @@
+.navbar-container {
+    width: 100%;
+    padding: 0.8rem;
+    gap: 20rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.navbar-container .nav-Link {
+    width: fit-content;
+    gap: 1.5rem;
+    margin-left: 6rem;
+}
+
+.navbar-container .nav-Link a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000de;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.navbar-container .nav-image {
+    width: 5%;
+    cursor: pointer;
+}
+
+.navbar-container .nav-buttons {
+    margin-right: 6rem;
+}
+
+.nav-icon button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.navbar-container .nav-buttons .nav-button-wallete button {
+    background-color: #18c683;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 1.2rem;
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+    transition: transform 0.2s ease 0s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar-container .nav-buttons .nav-button-wallete:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}

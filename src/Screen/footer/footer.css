@@ -1,0 +1,68 @@
+.footer-container {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    color: #fff;
+    border: none !important;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer-container a {
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+.footer-container p {
+    font-size: 0.9rem;
+}
+
+.footer-container .h4 {
+    font-weight: 700;
+}
+
+.footer-container .coin-cap {
+    width: 15%;
+}
+
+.footer-container .legal {
+    width: 20%;
+}
+
+.footer-container .legal p {
+    background: #00000000;
+    opacity: 0.5;
+}
+
+.footer-container .followus {
+    width: 15%;
+}
+
+.footer-container .followUs-link {
+    opacity: 0.8 !important;
+}
+
+.footer-container .followUs-link {
+    background: #00000000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer-container .followUs-link:hover {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+.footer-container .download .store img {
+    width: 30%;
+}
+
+.footer-container .download .store {
+    background: #00000000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer-container .download .store:hover {
+    color: #fff;
+    opacity: 1;
+}
